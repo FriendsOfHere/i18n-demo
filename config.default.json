@@ -2,7 +2,7 @@
    "name": "i18n Demo",
    "version": "1.0.0",
    "identifier": "app.here.i18n-demo",
-   "description": "A i18n Demo, Just poc",
+   "description": "A i18n here plugin demo, Just poc",
    "icon": "icon.png",
    "createdBy": "Lifesign",
    "website": "https://github.com/FriendsOfHere/i18n-demo",
