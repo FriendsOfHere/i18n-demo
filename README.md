@@ -3,6 +3,8 @@
 
 > A i18n Demo for [here](https://here.app/) plugin. Just a poc
 
+[中文说明](./readme_zh.md)
+
 ## Installation
 
 ### One Click  (Recommend)
@@ -13,7 +15,11 @@
 1. go [releases](https://github.com/FriendsOfHere/i18n-demo/releases/latest/) page
 2. download the latest release & double click the `app.here.i18n-demo.hereplugin`
 
-### Usage
+## Feature
+- A lightweight i18n parser, about 40 line
+- Lazy reload config without breaking the official loading mechanism
+
+## Usage
 - Go plugin preferences
 - Change `Interface Language`
 - Save && Restart here or Reload plugin
