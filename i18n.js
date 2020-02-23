@@ -1,3 +1,5 @@
+//Reference
+//https://medium.com/@WebReflection/easy-i18n-in-10-lines-of-javascript-poc-eb9e5444d71e
 function i18n(template, ...expression) {
     let info = i18n.db[i18n.locale][template.join('\x01')];
     if (typeof info == "undefined") {
