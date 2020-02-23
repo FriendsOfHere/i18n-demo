@@ -1,5 +1,5 @@
 /*
- * This file is part of app.here.helloworld.
+ * This file is part of app.here.i18n-demo.
  *
  * Copyright (c) 2020 Lifesign.
  *
