@@ -5,6 +5,8 @@
    "description": "A i18n Demo, Just poc",
    "icon": "icon.png",
    "createdBy": "Lifesign",
+   "website": "https://github.com/FriendsOfHere/i18n-demo",
+   "appcast": "https://raw.githubusercontent.com/FriendsOfHere/i18n-demo/master/appcast.xml",
    "script": "index.js",
    "defaultCategory": "fav",
    "displayOn": [],
