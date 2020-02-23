@@ -10,23 +10,23 @@
    "displayOn": [],
    "preferences": [
       {
-          "title": "Interface Language",
+          "title": "{{i18nTitle}}",
           "type": "popup",
           "key": "prefLang",
-          "default": 0,
+          "default": {{i18nDefault}},
             "options": [
                 "English",
                 "中文"
             ]
       },
       {
-          "title": "Food",
+          "title": "{{i18nFood}}",
           "type": "popup",
           "key": "prefFood",
           "default": 0,
             "options": [
-                "Banana",
-                "Apple"
+                "{{i18nBanana}}",
+                "{{i18nApple}}"
             ]
       }
    ]
