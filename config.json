@@ -1,0 +1,11 @@
+{
+   "name": "i18n Demo",
+   "version": "1.0.0",
+   "identifier": "app.here.i18n-demo",
+   "description": "A i18n Demo",
+   "icon": "icon.png",
+   "createdBy": "Lifesign",
+   "script": "index.js",
+   "defaultCategory": "fav",
+   "displayOn": [] 
+}
