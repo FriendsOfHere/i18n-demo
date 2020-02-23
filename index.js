@@ -12,31 +12,30 @@ const net = require("net")
 const cache = require('cache')
 const pref = require('pref')
 let i18nTool = require("./i18n.js")
-const langMap = ['en','zh']
+const langMap = ['en','zh-CN']
 
 function loadActualLang(locale) {
     //Pref
     i18nTool.set('en')`Interface Language`
-    .for('zh')`界面语言`
+    .for('zh-CN')`界面语言`
     i18nTool.set('en')`Food`
-    .for('zh')`食物`
+    .for('zh-CN')`食物`
     i18nTool.set('en')`Banana`
-    .for('zh')`香蕉`
+    .for('zh-CN')`香蕉`
     i18nTool.set('en')`Apple`
-    .for('zh')`苹果`
+    .for('zh-CN')`苹果`
 
     //notification
     i18nTool.set('en')`Notification: Success`
-    .for('zh')`通知：更换语言成功`
+    .for('zh-CN')`通知：更换语言成功`
     i18nTool.set('en')`Please Restart`
-    .for('zh')`请重启或者 Reload 生效`
+    .for('zh-CN')`请重启或者 Reload 生效`
 
     i18nTool.locale = locale
 }
 
 function changeLang() {
-    // loadLangConfig(langMap[_.toSafeInteger(pref.get('language'))])
-    let actualLang = _.toSafeInteger(cache.get('currentLang'))
+    let actualLang = _.toSafeInteger(cache.get('actualLang'))
     let prefLang = _.toSafeInteger(pref.get('prefLang'))
     console.log(`actualLang: ${actualLang} prefLang: ${prefLang}`)
     loadActualLang(langMap[prefLang])
@@ -49,7 +48,7 @@ function changeLang() {
     let i18nApple = i18nTool`Apple`
     console.log(`${i18nTitle}:${i18nFood}:${i18nBanana}:${i18nApple}`)
 
-    //rewrite current config, interface language will effect next time
+    //rewrite current config, need restart here or reload plugin
     if (actualLang != prefLang) {
         console.log("Begin rewrite config.json")
         here.exec(`
@@ -62,8 +61,8 @@ perl -pi -e 's/{{i18nApple}}/${i18nApple}/g' ./config.json;
 `)
                 .then((output) => {
                     console.log(output)
-                    cache.set('currentLang', prefLang)
-                    //generate notification
+                    cache.set('actualLang', prefLang)
+                    //notification
                     here.systemNotification(i18nTool`Notification: Success`, i18nTool`Please Restart`)
                 })
     } else {
@@ -73,7 +72,7 @@ perl -pi -e 's/{{i18nApple}}/${i18nApple}/g' ./config.json;
 
 here.onLoad(() => {
     
-    //切换语言 Demo
+    //ChangeLang Demo
     changeLang()
 
     // Update every 2 hours
