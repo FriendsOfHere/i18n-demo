@@ -27,9 +27,9 @@ function loadActualLang(locale) {
 
     //notification
     i18nTool.set('en')`Notification: Success`
-    .for('zh')`通知：成功`
+    .for('zh')`通知：更换语言成功`
     i18nTool.set('en')`Please Restart`
-    .for('zh')`请重启生效`
+    .for('zh')`请重启或者 Reload 生效`
 
     i18nTool.locale = locale
 }
