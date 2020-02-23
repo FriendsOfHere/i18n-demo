@@ -18,8 +18,8 @@
 - Change `Interface Language`
 - Save && Restart here or Reload plugin
 
-![Jietu20200223-202630.png](https://i.loli.net/2020/02/23/s2ixRgAK9XM3C1h.png | width=100)
-![Jietu20200223-202644.png](https://i.loli.net/2020/02/23/ln4Dq6vf82QSBxg.png | width=100)
+![Jietu20200223-202630.png](https://i.loli.net/2020/02/23/s2ixRgAK9XM3C1h.png)
+![Jietu20200223-202644.png](https://i.loli.net/2020/02/23/ln4Dq6vf82QSBxg.png)
 
 ## License
 This plugin is published under the [MIT License](./LICENSE.md)
