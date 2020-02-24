@@ -1,7 +1,7 @@
 {
    "name": "i18n Demo",
-   "version": "1.0.0",
-   "identifier": "app.here.i18n-demo",
+   "version": "1.0.1",
+   "identifier": "foh.i18n-demo",
    "description": "A i18n here plugin demo, Just poc",
    "icon": "icon.png",
    "createdBy": "Lifesign",
