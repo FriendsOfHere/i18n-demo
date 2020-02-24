@@ -7,11 +7,11 @@
 
 ### 一键安装  (推荐)
 
-👉 <a href="https://jump.here.app/?installPlugin?title=i18n&url=https://github.com/FriendsOfHere/i18n-demo/releases/latest/download/app.here.i18n-demo.hereplugin">点击这里 🔌</a>
+👉 <a href="https://jump.here.app/?installPlugin?title=I18n&url=https://github.com/FriendsOfHere/i18n-demo/releases/latest/download/I18n-Demo.hereplugin">点击这里 🔌</a>
 
 ### 手动安装
 1. 打开 [releases](https://github.com/FriendsOfHere/i18n-demo/releases/latest/) 页面
-2. 下载最新的 release 版本，双击 `app.here.i18n-demo.hereplugin` 即可安装
+2. 下载最新的 release 版本，双击 `I18n-Demo.hereplugin` 即可安装
 
 ## 特色
 - 一个轻量级的 i18n 解析器，40行左右
