@@ -9,11 +9,11 @@
 
 ### One Click  (Recommend)
 
-👉 <a href="https://jump.here.app/?installPlugin?title=i18n&url=https://github.com/FriendsOfHere/i18n-demo/releases/latest/download/app.here.i18n-demo.hereplugin">Click Here 🔌</a>
+👉 <a href="https://jump.here.app/?installPlugin?title=I18n&url=https://github.com/FriendsOfHere/i18n-demo/releases/latest/download/I18n-Demo.hereplugin">Click Here 🔌</a>
 
 ### Manually
-1. go [releases](https://github.com/FriendsOfHere/i18n-demo/releases/latest/) page
-2. download the latest release & double click the `app.here.i18n-demo.hereplugin`
+1. Go [releases](https://github.com/FriendsOfHere/i18n-demo/releases/latest/) page
+2. Download the latest release & double click the `I18n-Demo.hereplugin`
 
 ## Feature
 - A lightweight i18n parser, about 40 line
